@@ -21,7 +21,7 @@ const MovieService = {
     const whatInfo = slots.summary.toLowerCase();
     console.log(`request received for Slots=${moviename}, ${whatInfo}`);
         
-    return omdb.get({ title: moviename  }, true).then((movie) {
+    return omdb.get({ title: moviename  }, true).then((movie) => {
       if (!movie) {
         return console.log('Movie not found!');
       }
