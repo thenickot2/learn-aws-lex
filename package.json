@@ -1,0 +1,20 @@
+{
+  "name": "learn-aws-lex",
+  "version": "1.0.0",
+  "description": "Project to learn aws lex by querying movie information via a lambda function",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "aws",
+    "lex",
+    "lambda"
+  ],
+  "author": "Nicholas Tsianos",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "omdb": "^0.8.0"
+  }
+}
